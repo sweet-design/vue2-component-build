@@ -1,0 +1,21 @@
+{
+	"name": "cui-router-animation",
+	"version": "1.0.0",
+	"description": "mobile animation",
+	"main": "lib/RouterAnimation.umd.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"cui-router-animation",
+		"mobile"
+	],
+	"files": [
+		"lib",
+		"packages",
+		"types"
+	],
+	"author": "lebron",
+	"types": "types/index.d.ts",
+	"license": "MIT"
+}

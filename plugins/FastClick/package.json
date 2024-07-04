@@ -1,0 +1,21 @@
+{
+	"name": "cui-mobile-fastclick",
+	"version": "1.0.1",
+	"description": "快速点击",
+	"main": "lib/fastclick.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"fastclick"
+	],
+	"files": [
+		"lib",
+		"src",
+		"packages",
+		"types"
+	],
+	"author": "lebron",
+	"typings": "types/index.d.ts",
+	"license": "MIT"
+}

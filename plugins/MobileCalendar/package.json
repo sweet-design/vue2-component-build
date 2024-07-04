@@ -1,0 +1,21 @@
+{
+	"name": "cui-calendar",
+	"version": "1.0.4",
+	"description": "calendar",
+	"main": "lib/calendar.umd.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"mobile",
+		"cui"
+	],
+	"files": [
+		"lib",
+		"packages",
+		"types"
+	],
+	"author": "lebron",
+	"typings": "types/index.d.ts",
+	"license": "MIT"
+}

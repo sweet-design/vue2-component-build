@@ -1,0 +1,21 @@
+{
+	"name": "cui-page-designer",
+	"version": "1.3.62",
+	"description": "cui-page-designer",
+	"main": "lib/PageDesigner.umd.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"page",
+		"cui"
+	],
+	"files": [
+		"lib",
+		"packages",
+		"types"
+	],
+	"author": "lebron",
+	"typings": "types/index.d.ts",
+	"license": "MIT"
+}

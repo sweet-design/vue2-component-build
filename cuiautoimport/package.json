@@ -1,0 +1,21 @@
+{
+	"name": "cuiautoimportss",
+	"version": "1.0.3",
+	"description": "cuiautoimportss",
+	"main": "lib/cuiautoimportss.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"cuiautoimportss",
+		"mobile"
+	],
+	"files": [
+		"lib",
+		"packages",
+		"types"
+	],
+	"typings": "types/index.d.ts",
+	"author": "lebron",
+	"license": "MIT"
+}
