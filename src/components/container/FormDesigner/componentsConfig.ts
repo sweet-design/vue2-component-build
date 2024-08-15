@@ -538,6 +538,52 @@ export const basicComponents = [
     },
   },
   {
+    type: 'inputSelect',
+    name: 'pageDesign.fields.inputSelect',
+    icon: 'icon-select',
+    options: {
+      labelControl: false,
+      labelCol: 6,
+      isControl: false,
+      controlCondition: '',
+      defaultValue: '',
+      multiple: false,
+      disabled: false,
+      clearable: false,
+      placeholder: '',
+      required: false,
+      /**
+       * 辅助字段
+       */
+      assistField: '',
+      /**
+       * 高级校验类型, 0.不校验 1.驱动校验 2.范围校验 3.自定义校验
+       */
+      advanceRuleType: '',
+      /**
+       * 驱动校验的字段列表
+       */
+      driveList: [],
+      /**
+       * 自定义校验时的函数
+       */
+      customRuleFunc: '',
+      showLabel: true,
+      width: '100%',
+      options: [],
+      remote: true,
+      filterable: false,
+      filterfetch: false,
+      remoteOptions: [],
+      props: {
+        value: 'id',
+        label: 'description',
+      },
+      remoteFunc: '',
+      onchange: '',
+    },
+  },
+  {
     type: 'ddList',
     name: 'pageDesign.fields.ddlist',
     icon: 'icon-select',
