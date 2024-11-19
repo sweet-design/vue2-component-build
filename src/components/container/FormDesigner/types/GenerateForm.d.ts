@@ -25,7 +25,7 @@ export declare class GenerateForm extends CohoComponent {
    * 获取表单数据
    * @param state 获取表单数据时是否需要先校验 默认true
    */
-  getData(state?: boolean): Promise;
+  getData(state?: boolean): Promise<any>;
   /**
    * 获取表单是否被修改过
    */

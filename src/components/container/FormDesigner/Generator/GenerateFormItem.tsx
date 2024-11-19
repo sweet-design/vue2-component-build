@@ -106,19 +106,26 @@ export default class GenerateFormItem extends Vue {
   };
 
   @Watch('models', { deep: true })
-  private modelsChange(newVal: any) { 
-    if (!this.treeObj.label) {
+  private modelsChange(newVal: any) {
+    if (
+      !(
+        newVal[this.widget.options.assistField] == undefined ||
+        newVal[this.widget.options.assistField] == null
+      )
+    ) {
       this.treeObj.label = this.widget.options.assistField
         ? newVal[this.widget.options.assistField]
         : '';
     }
     this.treeObj.value = newVal[this.widget.model];
+    this.current = newVal[this.widget.model];
     if (this.selectObj) {
       this.selectObj.key = newVal[this.widget.model];
       this.selectObj.label = this.widget.options.assistField
         ? newVal[this.widget.options.assistField]
         : '';
     }
+    //console.log('formdesign-数据更新', JSON.parse(JSON.stringify(newVal)))
   }
 
   @Emit('checked')
